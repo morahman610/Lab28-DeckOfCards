@@ -1,0 +1,10 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+
+    @for (int i = 0; i < 4; i++)
+    {
+        <p>@ViewBag.Image[i]</p>
+        <p>@ViewBag.Value[i] of @ViewBag.Suit[i]</p>
+    }
